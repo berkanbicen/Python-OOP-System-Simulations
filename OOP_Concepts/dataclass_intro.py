@@ -1,3 +1,4 @@
+# OOP Concept Example
 from dataclasses import dataclass
 class EskiOgrenci:
     def __init__(self, ad, numara, ortalama):
@@ -24,4 +25,5 @@ print("\n--- DATACLASS ---")
 y1=YeniOgrenci("Ayse", 202, 90.0)
 y2=YeniOgrenci("Ayse", 202, 90.0)
 print(y1)
+
 print(f"Esit mi? {y1==y2}")
