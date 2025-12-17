@@ -450,4 +450,6 @@ if __name__ == "__main__":
     parking_system = ParkingSystem(LOT_NAME, LOT_CAPACITY)
     
     # Run the main menu
+
     parking_system.run_menu()
+    # Final version for portfolio review
